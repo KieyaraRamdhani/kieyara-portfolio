@@ -1,0 +1,56 @@
+.background{
+    position:fixed;
+    inset:0;
+    overflow:hidden;
+    z-index:-2;
+}
+
+.blob{
+    position:absolute;
+    border-radius:50%;
+    filter:blur(120px);
+    opacity:.45;
+    animation:float 18s ease-in-out infinite;
+}
+
+.blob1{
+    width:450px;
+    height:450px;
+    background:#3B82F6;
+    top:-120px;
+    left:-120px;
+}
+
+.blob2{
+    width:400px;
+    height:400px;
+    background:#8B5CF6;
+    bottom:-150px;
+    right:-100px;
+    animation-delay:5s;
+}
+
+.blob3{
+    width:320px;
+    height:320px;
+    background:#22D3EE;
+    top:40%;
+    left:50%;
+    animation-delay:10s;
+}
+
+@keyframes float{
+
+    0%{
+        transform:translate(0,0) scale(1);
+    }
+
+    50%{
+        transform:translate(80px,-60px) scale(1.15);
+    }
+
+    100%{
+        transform:translate(0,0) scale(1);
+    }
+
+}

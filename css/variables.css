@@ -1,0 +1,17 @@
+:root {
+
+    --background: #0B0F19;
+    --surface: #141B2D;
+
+    --primary: #3B82F6;
+    --secondary: #8B5CF6;
+
+    --white: #FFFFFF;
+    --gray: #A1A1AA;
+
+    --heading-font: "Space Grotesk", sans-serif;
+    --body-font: "Inter", sans-serif;
+
+    --transition: .3s ease;
+
+}
